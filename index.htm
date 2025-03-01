@@ -2,7 +2,7 @@
 <!-- saved from url=(0056)https://vis-society.github.io/assignments/A3_report.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Vis &amp; Society Assignment 3</title>
-	<link rel="stylesheet" href="./Vis &amp; Society Assignment 3_files/report.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
 		</h1>
 
 		<p>
-			<strong>Your Name</strong> — <em>Your MIT Email Address</em>
+			<strong>Erin Mitchell</strong> — <em>esmitch@mit.edu</em>
 		</p>
 	</header>
 
@@ -22,7 +22,7 @@
 			<h2>Reading &amp; Critique</h2>
 
 			<figure>
-				<img src="./Vis &amp; Society Assignment 3_files/covid-spiral.png" alt="">
+				<img src="./images/covid-spiral.png" alt="">
 			</figure>
 
 			<p>
@@ -30,9 +30,12 @@
 			</p>
 
 			<ul>
-				<li>INSIGHT 1</li>
-				<li>INSIGHT 2</li>
-				<li>INSIGHT 3</li>
+				<li>The spiraling layout of the chart places months next to one another (e.g., January 2020 next to January 2021, next to January 2022), which suggests that the intention is to compare seasonal changes in COVID rates over time.</li>
+				<li>The chart appears to form a vaguely horn-shaped curve, implying that the situation started off slowly in early 2020 and progressively worsened by January 2022.</li>
+				<li>Looking for trends, the chart shows that COVID cases spiked in January 2021, improved in July 2021, and then worsened again toward the end of 2021.</li>
+				<li>The grid lines are helpful in identifying where one month ends and another begins, providing a clear reference point for navigating the data.</li>
+				<li>The use of red as a color choice is effective; it aligns with the convention of using red to indicate something negative, such as a surge in COVID cases, and the chart correctly conveys that more red corresponds to worsening conditions.</li>
+				<li>The inclusion of arrows and year labels helps guide the viewer to start reading from the center of the spiral and work outward. These labels are particularly important since the spiral layout is unconventional, and without them, it would be unclear how to interpret the chart</li>
 			</ul>
 
 			<p>
@@ -40,9 +43,12 @@
 			</p>
 
 			<ul>
-				<li>CRITIQUE 1</li>
-				<li>CRITIQUE 2</li>
-				<li>CRITIQUE 3</li>
+				<li>The goal of the visualization appears to be to show when the Omicron variant might peak and how it differs from previous COVID variants. However, this message is not clearly communicated by the visual itself, and I only understood it from reading the accompanying article.</li>
+				<li>It is difficult to compare the width of the curving plot, which makes it hard to discern the relative severity of COVID cases during different months. For instance, it’s hard to compare whether the COVID rates were worse in January 2021 compared to September 2021 or other months visually.</li>
+				<li>The scale reading in the upper left is essentially ineffective, as it is nearly impossible to determine the exact width of the plot in relation to the scale.</li>
+				<li>The term "7-day average" is not adequately explained, and this added confusion led me to question my understanding of the chart. Initially, I thought I understood the gist of the chart, but the mention of the 7-day average made me second-guess myself.</li>
+				<li>Although the spacing, layout, and typeface ensure that the chart is legible, the overall ease of understanding is more problematic. Despite spending time analyzing the chart, I felt compelled to read the article for clarification, which left me uncertain about how the graph conveyed specific information regarding Omicron.</li>
+				<li>It seems that the design prioritizes aesthetics over functionality. While the spiral layout is visually striking, it detracts from the clarity of the data presentation.</li>
 			</ul>
 		</section>
 
@@ -50,9 +56,9 @@
 			<h2>Visualization Sketches</h2>
 
       <figure>
-				<img src="./Vis &amp; Society Assignment 3_files/IMAGE_FILENAME" alt="">
+				<img src="./images/sketch1.jpg" alt="">
 				<figcaption>
-          BRIEF CAPTION HERE.
+          Circular small multiples graphic, where each wedge of the circle corresponds with the number of new confirmed COVID cases that were recorded that month.
 				</figcaption>
 			</figure>
 
@@ -61,15 +67,19 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>The purpose of this chart was to compare the seasonality of the COVID pandemic across months.</li>
+				<li>I opted for small multiples, as I felt this would provide a clearer month-to-month comparison than the spiral used in the original visualization.</li>
+				<li>The seasonal differences between December and January compared to the summer months are clearly visible, successfully meeting the goal of highlighting COVID seasonality.</li>
+				<li>I thought using a single color would keep the visuals simple and avoid unnecessary distractions. In hindsight, it might have been more effective to use color to encode additional information, such as color-coding the months or using a different color to highlight periods when COVID rates were spiking.</li>
+				<li>I think the legend works well for showing scale. This chart allows for easy comparisons between months, but also lets users can extract numerical data if needed.</li>
+				<li>The January 2022 data extends beyond the page, which effectively highlights the surge in cases and visually emphasizes it as an outlier. However, it does not clearly convey actual numbers the way the 1 million and 5 million rings do.</li>
+				<li>The circular design doesn’t effectively convey the passage of time, except perhaps if viewed like a clock. For the next sketch, I’d like to explore a design that is more timeline-inspired.</li>
 			</ul>
 
 			<figure>
-				<img src="./Vis &amp; Society Assignment 3_files/IMAGE_FILENAME" alt="">
+				<img src="./images/sketch2.jpg" alt="">
 				<figcaption>
-          BRIEF CAPTION HERE.
+          Overlapping bar chart timeline, where each bar represents the number of new confirmed COVID cases that were recorded that month.
 				</figcaption>
 			</figure>
 
@@ -78,15 +88,18 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>I wanted to convey the progression of the pandemic over time, with a more timeline-oriented design, encoding the different years using both color and texture.</li>
+				<li>The overlapping bars are confusing. I tried to differentiate the years using color and texture, but given the limitations of hand-drawing, this didn’t work as well as I had hoped. A computer-generated version might have been more effective, which I explored in the final visualization.</li>
+				<li>The January 2022 spike still overwhelms the rest of the data, which I also tried to address in my final design.</li>
+				<li>Initially, I considered using line graphs, but I struggled with defining what the "line" would represent. After considering this, I realized that bars would make more sense, especially for capturing discrete values. This realization helped me better understand the original plot’s use of a 7-day average to smooth the data.</li>
+				<li>The bars allow for more precise data representation. The axis and bar sizes are easier to read and provide clearer numerical values compared to the previous sketch, where the focus was more on comparison than specific numbers.</li>
+				<li>For the next sketch, I want to try a new method to represent the consecutive years of the pandemic, aiming for a clearer and more intuitive design.</li>
 			</ul>
 
 			<figure>
-				<img src="./Vis &amp; Society Assignment 3_files/IMAGE_FILENAME" alt="">
+				<img src="./images/sketch3.jpg" alt="">
 				<figcaption>
-          BRIEF CAPTION HERE.
+          Multiple bar graphics, one for each year, with colored bands for each month. The width of the colored bands corresponds with the number of new confirmed COVID cases that were recorded that month.
 				</figcaption>
 			</figure>
 
@@ -95,9 +108,12 @@
 			</p>
 
 			<ul>
-				<li>RATIONALE 1</li>
-				<li>RATIONALE 2</li>
-				<li>RATIONALE 3</li>
+				<li>The goal of this design was a hybrid of the first two sketches – I wanted to show both the timeline of the pandemic year by year, while still allowing for comparisons of seasonality across months.</li>
+				<li>Although the design is visually different from my first sketch, it does end up encoding very similar information. </li>
+				<li>The visualization effectively compares months across consecutive years, achieving the intended comparison. The flow from year to year is clear, and the structure helps show the seasonal trends.</li>
+				<li>I used July as the center reference point (i.e. the x-axis), but this makes it difficult to interpret the actual size of the segments. Also, since 2022 had a large spike in January and no data for October – December, the plot overall has a look as though it is moving up on the page, and the reader might think there is some meaning behind this when really it doesn’t mean anything.</li>
+				<li>The legend in the top left faces the same issue as the original spiral graph: it’s placed far enough away from the figure that it’s difficult to use for comparing sizes and extracting actual numerical values from the chart.</li>
+				<li>I used color to differentiate the months, but I’m uncertain if it results in too many colors, potentially overwhelming the viewer. To enhance clarity, I placed the month labels on the right in the same color. However, the labels for October to December had to be positioned in the center due to the absence of 2022 data, which could confuse readers.</li>
 			</ul>
 		</section>
 
@@ -105,7 +121,11 @@
 			<h2>Final Visualization Design</h2>
       
 			<figure>
-				<img src="./Vis &amp; Society Assignment 3_files/IMAGE_FILENAME" alt="">
+				
+				<video width=100% controls>
+					<source src="images/A3_animation_updated.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				  </video>
 				<figcaption>
           BRIEF CAPTION HERE.
 				</figcaption>
@@ -117,14 +137,23 @@
 			<h2>Design Process &amp; Design Decisions</h2>
 
 			<p>
-        DESCRIBE YOUR DESIGN PROCESS AND DECISION DECISIONS HERE.
+				For my final visualization, I aimed to illustrate how different COVID variants impacted the number of new cases, with a particular focus on Omicron as the outlier. This was inspired by the original visualization and its accompanying article, which sought to emphasize Omicron’s dramatic surge in cases. To address drawbacks from my sketches, I used transparency to reduce confusion caused by overlapping data, and adjusted the axis to ensure that Omicron's spike remained prominent, without overshadowing the entire dataset. I chose to animate the visualization because timeline data, to me, makes the most sense when presented sequentially. This allows viewers to engage with the data in a linear fashion and interact with the story as it unfolds, much like the powerful storytelling approach of <a href="https://guns.periscopic.com/" target="_blank">the periscopic gun deaths graphic</a> we saw in class.
+			</p>
+			<p>
+				I opted to present the case data at its most granular level—daily new cases—rather than aggregating it into months as in my earlier sketches. This approach provides a more detailed view, showing surges at the end of months or a steady stream throughout the month. To visually differentiate between the years, I used three highly contrasting colors, overlaid with transparency to make the chart more readable. I also shrank the 2022 data to indicate a scale shift, signaling that viewers were now viewing data with a different scale. Bars were selected as the visual encoding method instead of a continuous line, as this allowed me to convey discrete daily values. I filtered out the negative value in 2021, as negative new cases don’t make sense logically and were likely a data error. To further clarify, variant outbreak labels were paired with their proximity to specific dates, and the animation effectively shows the evolution of the pandemic’s severity, providing a clearer narrative compared to using small multiples.
       </p>
 
       <h3>Reflection</h3>
 
       <p>
-        WRITE YOUR FINAL REFLECTION HERE.
+        <b>Compared to the original spiral graphic:</b> I believe this design makes the story clearer to the viewer. It’s more obvious which aspects of the data are important—primarily the extreme surge of Omicron. However, the animation does come with its own set of challenges. While the original visualization may have oversimplified the data and made it harder to interpret, my visualization could be considered overcomplicated. The need for the viewer to wait through the animation, while offering a more immersive experience, introduces a tradeoff in terms of ease of use. Additionally, while the original graphic worked well in print, my animated visualization is better suited for digital media – different designs need to be considered for different mediums. The animation also allows for more granular understanding of the data, but it may require more effort to fully digest compared to a simpler, static representation.
       </p>
+	  <p>
+		<b>Death count data was not included:</b> This visualization effectively emphasizes Omicron as a major outlier, showcasing the extreme surge in new cases, which is a key aspect of the data. However, there is a potential risk that it might unintentionally imply a correlation between the high case numbers during the Omicron wave and its lethality. Since the data focuses only on new cases, without information on deaths, it would be misleading to suggest that Omicron was particularly deadly. This limitation was considered when I designed the visual, and while I chose not to incorporate death data, it would have been interesting to explore the relationship between case numbers and mortality rates.
+	  </p>
+	  <p>
+		<b>Drawbacks to using animation:</b> While the animation succeeds in conveying the story of the pandemic’s progression, it introduces a challenge when viewed as a still image. In the final frame, where Omicron's surge is most prominent, the visualization risks downplaying the significance of earlier waves, potentially leading viewers to believe that Omicron was the only significant part of the pandemic. The purpose of the animation was to highlight the overwhelming nature of Omicron’s rise through a changing scale, but in a static format, this effect is diminished, and earlier pandemic phases are obscured. This issue reflects a tradeoff in my design: while the animation provides a dynamic way to experience the timeline, it requires the viewer to engage more deeply and wait for the unfolding story.
+	  </p>
 		</section>
 	</main>
 
